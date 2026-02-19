@@ -8,6 +8,37 @@
   <Folder Name="/03/">
     <Project Path="OrderingThreeNumbers/OrderingThreeNumbers.csproj" Id="26482fd3-e4d2-4332-a0cc-df7a8207ed19" />
   </Folder>
+  <Folder Name="/04/">
+    <Project Path="MultipleOfAnother/MultipleOfAnother.csproj" Id="b41351bc-7556-4207-8561-35cd7b40f687" />
+  </Folder>
+  <Folder Name="/05/">
+    <Project Path="Leapyear/LeapYear.csproj" Id="20a63a84-8953-47a1-b7ad-0c97032a8104" />
+  </Folder>
+  <Folder Name="/06/">
+    <Project Path="SimplePayroll/SimplePayroll.csproj" Id="49024828-1466-418a-b30a-139fa1096815" />
+  </Folder>
+  <Folder Name="/07/">
+    <Project Path="Discounts/Discounts.csproj" Id="a1463e95-e248-4dbf-a594-0688f4a24f4a" />
+  </Folder>
+  <Folder Name="/08/">
+    <Project Path="TuitionFee/TuitionFee.csproj" Id="daab336a-5864-4c55-9cac-7386f7c54243" />
+  </Folder>
+  <Folder Name="/09/">
+    <Project Path="ShippingOfGoods/ShippingOfGoods.csproj" Id="851b2f2d-6611-4ba4-b089-bce49c89fad8" />
+  </Folder>
+  <Folder Name="/10/">
+    <Project Path="Warehouses/Warehouses.csproj" Id="3b48b39c-321a-4077-825f-460476935080" />
+  </Folder>
+  <Folder Name="/11/" />
+  <Folder Name="/12/" />
+  <Folder Name="/13/" />
+  <Folder Name="/14/" />
+  <Folder Name="/15/" />
+  <Folder Name="/16/" />
+  <Folder Name="/17/" />
+  <Folder Name="/18/" />
+  <Folder Name="/19/" />
+  <Folder Name="/20/" />
   <Folder Name="/Shared/">
     <Project Path="Shared/Shared.csproj" Id="1b27e853-323b-4a05-a3ec-d7d9f4745259" />
   </Folder>
