@@ -15,7 +15,7 @@ do
     }
     else if (year > currentYear)
     {
-        message = "sera";
+        message = "va a ser";
     }
     else
     {
@@ -31,24 +31,24 @@ do
             if (year % 400 == 0)
 
             {
-                Console.WriteLine($"El  {year} si {message} biciesto");
+                Console.WriteLine($"El año: {year} SI {message} biciesto");
             }
             else
             {
-                Console.WriteLine($"El  {year} no {message} biciesto");
+                Console.WriteLine($"El año: {year} NO {message} biciesto");
             }
 
         }
         else
         {
-            Console.WriteLine($"El  {year} si {message} biciesto");
+            Console.WriteLine($"El año: {year} SI {message} biciesto");
         }
 
 
     }
     else
     {
-        Console.WriteLine($"El  {year} no {message}  biciesto");
+        Console.WriteLine($"El  {year} NO {message}  biciesto");
     }
 
 
