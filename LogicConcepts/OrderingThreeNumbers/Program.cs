@@ -2,11 +2,12 @@
 
 do
 {
+    Console.WriteLine("Ingrese 3 números diferentes...");
     var a = ConsoleExtension.GetInt("Ingresaste primer número : ");
     var b = ConsoleExtension.GetInt("Ingrese segundo número : ");
     if (a == b)
     {
-        Console.WriteLine("Deben ser diferentes, vuela a empezar...");
+        Console.WriteLine("Deben ser diferentes, vuelva a empezar...");
         continue;
     }
 
@@ -21,10 +22,10 @@ do
     {
         if (b > c)
         {
-            Console.WriteLine($"El mayor es {a}, el medio es {b}, el menor es {c}")
+            Console.WriteLine($"El mayor es {a}, el medio es {b}, el menor es {c}");
         }
         else
-        { 
+        {
             Console.WriteLine($"El mayor es {a}, el medio es {c}, el menor es {b}");
         }
     }
@@ -40,10 +41,15 @@ do
         }
     }
     else
-    { 
+    {
         if (a > b)
         {
             Console.WriteLine($"El mayor es {c}, el medio es {a}, el menor es {b}");
         }
+        else
+        {
+            Console.WriteLine($"El mayor es {c}, el medio es {b}, el menor es {a}");
+        }
+    }
 
 } while (true);
