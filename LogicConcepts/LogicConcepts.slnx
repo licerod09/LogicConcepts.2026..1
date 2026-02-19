@@ -1,1 +1,14 @@
-<Solution />
+<Solution>
+  <Folder Name="/01/">
+    <Project Path="IsNumberOddOrNott/IsNumberOddOrNott.csproj" Id="16d40231-1478-411f-9d2f-64fd41a300e5" />
+  </Folder>
+  <Folder Name="/02/">
+    <Project Path="LargestNumber/LargestNumber.csproj" Id="8071e4a0-b300-4295-a383-156d2deb9aa5" />
+  </Folder>
+  <Folder Name="/03/">
+    <Project Path="OrderingThreeNumbers/OrderingThreeNumbers.csproj" Id="26482fd3-e4d2-4332-a0cc-df7a8207ed19" />
+  </Folder>
+  <Folder Name="/Shared/">
+    <Project Path="Shared/Shared.csproj" Id="1b27e853-323b-4a05-a3ec-d7d9f4745259" />
+  </Folder>
+</Solution>
