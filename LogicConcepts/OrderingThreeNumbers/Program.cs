@@ -22,7 +22,7 @@ do
     {
         if (b > c)
         {
-            Console.WriteLine($"El mayor es {a}, el medio es {b}, el menor es {c}");
+            Console.WriteLine($"El mayor es {a}, el medio es {b}, el menor es {c}"); 
         }
         else
         {

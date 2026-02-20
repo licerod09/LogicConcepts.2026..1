@@ -21,24 +21,14 @@
     <Project Path="Discounts/Discounts.csproj" Id="a1463e95-e248-4dbf-a594-0688f4a24f4a" />
   </Folder>
   <Folder Name="/08/">
-    <Project Path="TuitionFee/TuitionFee.csproj" Id="daab336a-5864-4c55-9cac-7386f7c54243" />
-  </Folder>
-  <Folder Name="/08/10/">
-    <Project Path="Warehouses/Warehouses.csproj" Id="3b48b39c-321a-4077-825f-460476935080" />
+    <Project Path="TuitionFee/TuitionValue.csproj" Id="daab336a-5864-4c55-9cac-7386f7c54243" />
   </Folder>
   <Folder Name="/09/">
     <Project Path="ShippingOfGoods/ShippingOfGoods.csproj" Id="851b2f2d-6611-4ba4-b089-bce49c89fad8" />
   </Folder>
-  <Folder Name="/11/" />
-  <Folder Name="/12/" />
-  <Folder Name="/13/" />
-  <Folder Name="/14/" />
-  <Folder Name="/15/" />
-  <Folder Name="/16/" />
-  <Folder Name="/17/" />
-  <Folder Name="/18/" />
-  <Folder Name="/19/" />
-  <Folder Name="/20/" />
+  <Folder Name="/10/">
+    <Project Path="WarehousesEvent/WarehousesEvent.csproj" Id="62a59c6c-f83b-4951-b451-f929bc980544" />
+  </Folder>
   <Folder Name="/Shared/">
     <Project Path="Shared/Shared.csproj" Id="1b27e853-323b-4a05-a3ec-d7d9f4745259" />
   </Folder>

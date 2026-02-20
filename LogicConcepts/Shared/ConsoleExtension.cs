@@ -14,7 +14,7 @@
             return 0;
         }
 
-        public static float Getfloat(string message)
+        public static float GetFloat(string message)
         {
             Console.Write(message);
             var numberString = Console.ReadLine();
