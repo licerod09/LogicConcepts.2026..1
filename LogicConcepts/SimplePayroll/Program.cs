@@ -6,28 +6,27 @@ var options = new List<string> { "s", "n" };
 do
 {
     var name = ConsoleExtension.GetString("Ingrese nombre......................: ");
-    var w_Hours = ConsoleExtension.GetFloat("Ingrese número de horas trabajadas..: ");
-    var h_Value = ConsoleExtension.GetDecimal("Ingrese valor hora..................: ");
+    var workHours = ConsoleExtension.GetFloat("Ingrese número de horas trabajadas..: ");
+    var hourValue = ConsoleExtension.GetDecimal("Ingrese valor hora..................: ");
     var salaryMinium = ConsoleExtension.GetDecimal("Ingrese valor salario mínimo mensual: ");
 
-    var salary = (decimal)w_Hours * h_Value;
+    var salary = (decimal)workHours * hourValue;
     if (salary < salaryMinium)
     {
         Console.WriteLine($"Nombre..................: {name}");
-        Console.WriteLine($"Salario.................: {salaryMinium: C2}");
+        Console.WriteLine($"Salario.................: {salaryMinium:C2}");
     }
     else
     {
         Console.WriteLine($"Nombre..................: {name}");
-        Console.WriteLine($"Salario.................: {salary: C2}");
+        Console.WriteLine($"Salario.................: {salary:C2}");
     }
 
     do
     {
         answer = ConsoleExtension.GetValidOptions("Desea continuar [S]i , [N]o?: ", options);
     } while (!options.Any(x => x.Equals(answer, StringComparison.CurrentCultureIgnoreCase)));
-
 } while (answer!.Equals("s", StringComparison.CurrentCultureIgnoreCase));
 
-Console.WriteLine("Perfecto");
+Console.WriteLine("Perfecto.");
 
