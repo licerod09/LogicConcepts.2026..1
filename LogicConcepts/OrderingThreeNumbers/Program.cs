@@ -3,7 +3,7 @@
 do
 {
     Console.WriteLine("Ingrese 3 números diferentes...");
-    var a = ConsoleExtension.GetInt("Ingresaste primer número : ");
+    var a = ConsoleExtension.GetInt("Ingrese primer número : ");
     var b = ConsoleExtension.GetInt("Ingrese segundo número : ");
     if (a == b)
     {
